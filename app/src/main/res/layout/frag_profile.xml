@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+<!--
+    <ImageView
+        android:id="@+id/profile_avatar"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars[7]" />-->
+
+    <TextView
+        android:id="@+id/profile_fname"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/profile_lname"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/profile_mobile"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/profile_address"
+        android:text="@string/info_address_example"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_profile_edit"
+        android:text="@string/info_btn_edit"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_change_pwd"
+        android:text="CHANGE PASSWORD"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

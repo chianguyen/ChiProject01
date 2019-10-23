@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ChiProject01</string>
+
+    <string name="title_text">Thunderfeast</string>
+    <string name="title_text2">Quick and Deli</string>
+
+    <!--Loading Screen-->
+    <string name="loading_txt">Loading...</string>
+
+    <!--Phone Verification Screen-->
+    <string name="phoneveri_txt_verify">Verify Phone Number</string>
+    <string name="phoneveri_btn_send">Send code</string>
+    <string name="phoneveri_txt_code">Code</string>
+
+    <!--Address Screen-->
+    <string name="add_title">Add your Delivery Address</string>
+    <string name="address_address">Address</string>
+    <string name="address_city">City</string>
+    <string name="address_state">State</string>
+    <string name="address_gps">Capture GPS location</string>
+    <string name="address_maps">Maps</string>
+    <string name="address_btn">Proceed</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="main_meat">Meat</string>
+    <string name="main_grocery">grocery</string>
+    <string name="main_veggies">veggies</string>
+    <string name="main_fruits">fruits</string>
+    <string name="main_medicine">medicinal</string>
+    <string name="btn_verify">Verify</string>
+    <string name="test_item">Item A</string>
+    <string name="test_price">$59</string>
+    <string name="hint_quantity">Qty</string>
+    <string name="btn_add2cart">Add to cart</string>
+    <string name="btn_checkout">Check out</string>
+    <string name="btn_back">BACK</string>
+    <string name="bottom_profile">Profile</string>
+    <string name="bottom_cart">Cart</string>
+    <string name="bottom_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_btn_save">SAVE</string>
+    <string name="info_name_example">Julius Caesar</string>
+    <string name="info_email_example">julius.caesar@rome.com</string>
+    <string name="info_phone_example">+1 315 221 0886</string>
+    <string name="info_address_example">Caesar\'s Palace, Rome, Italy</string>
+    <string name="info_btn_edit">EDIT</string>
+    <string name="info_btn_update">UPDATE</string>
+    <string name="btn_gps">GPS TRACK</string>
+    <string name="btn_gps_option">find your address!</string>
+
+
+</resources>

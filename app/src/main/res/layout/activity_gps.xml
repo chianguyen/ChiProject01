@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GPSActivity"
+    android:id="@+id/gps_act"
+    android:background="@drawable/bg_gradient">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gps_title"
+        android:text="PRESS THE BUTTON TO GET YOUR GPS LOCATION"
+        android:textSize="35sp"
+        android:textColor="@color/blue"
+        android:fontFamily="casual"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/gps_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:textColor="@color/blue"
+        android:textSize="32sp"/>
+
+    <Button
+        android:id="@+id/gps_btn"
+        android:text="Get \nlocation"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:layout_marginTop="30dp"
+        style="@style/address_button"/>
+
+        <Button
+            android:id="@+id/gps_proceed"
+            style="@style/address_button"
+            android:layout_marginTop="10dp"
+            android:fontFamily="casual"
+            android:background="@drawable/bg_button"
+            android:text="Proceed"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

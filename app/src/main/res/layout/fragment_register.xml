@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.RegisterFragment"
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:id="@+id/login_img"
+        style="@style/login_img"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        style="@style/loading_txt"/>
+
+    <EditText
+        android:id="@+id/reg_firstName"
+        android:hint="First name"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/reg_lastName"
+        android:hint="Last name"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/reg_address"
+        android:hint="Address"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/reg_mobile"
+        android:hint="Mobile"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:text="Register"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        style="@style/login_btn"/>
+
+</LinearLayout>

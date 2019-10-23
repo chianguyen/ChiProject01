@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257940535647",
+    "firebase_url": "https://chiproject01-da6b4.firebaseio.com",
+    "project_id": "chiproject01-da6b4",
+    "storage_bucket": "chiproject01-da6b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257940535647:android:d1a438e8fa064aee765eea",
+        "android_client_info": {
+          "package_name": "org.mp.chiproject01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257940535647-gpqvkgngmj2gf4stid0vt1gmm4crlk8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mp.chiproject01",
+            "certificate_hash": "cb3b82612432a7527ea461dff51aba52b195ce9c"
+          }
+        },
+        {
+          "client_id": "257940535647-4na8pu4sj72nmsmq7ls5r33tmm6jltr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-zjAJoYOVP32fGEvIGDsPeKP0I6L4nsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257940535647-4na8pu4sj72nmsmq7ls5r33tmm6jltr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

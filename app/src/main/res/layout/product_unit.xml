@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_ground">
+
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_margin="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_pname"
+            android:text="Product Name"
+            android:textSize="25sp"
+            android:layout_margin="7dp"
+            android:textColor="@color/blue"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_pprice"
+            android:text="Price"
+            android:textColor="@color/blue"
+            android:fontFamily="casual"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/text_pdes"
+            android:text="Description"
+            android:textColor="@color/blue"
+            android:fontFamily="casual"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

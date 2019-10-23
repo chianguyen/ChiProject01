@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.LoginFragment"
+    android:background="@drawable/bg_gradient">
+
+    <ImageView
+        android:id="@+id/login_img"
+        style="@style/login_img"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:text="Sign In"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        style="@style/loading_txt"/>
+
+    <EditText
+        android:id="@+id/login_mobile"
+        android:hint="Mobile"
+        android:layout_width="match_parent"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="50dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:text="Login"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        style="@style/login_btn"/>
+
+    <Button
+        android:id="@+id/login_btn_forgot"
+        android:text="FORGOT PASSWORD?"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        style="@style/login_btn"/>
+
+</LinearLayout>

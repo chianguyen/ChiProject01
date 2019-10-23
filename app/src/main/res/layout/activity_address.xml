@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".activities.AddressActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/login_img"
+        style="@style/login_img"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:text="@string/title_text"
+        style="@style/app_text_title"/>
+
+    <TextView
+        android:text="@string/title_text2"
+        style="@style/app_text_title2"/>
+
+    <TextView
+        android:text="@string/add_title"
+        android:layout_marginTop="30dp"
+        style="@style/address_title"/>
+
+    <!-- Address Input -->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        style="@style/address_info_layout">
+
+        <TextView
+            android:text="@string/address_address"
+            style="@style/address_info"/>
+
+        <EditText
+            android:id="@+id/add_edit_address"
+            style="@style/address_edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/address_info_layout">
+
+        <TextView
+            android:text="@string/address_city"
+            style="@style/address_info"/>
+
+        <EditText
+            android:id="@+id/add_edit_City"
+            style="@style/address_edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/address_info_layout">
+
+        <TextView
+            android:text="@string/address_state"
+            style="@style/address_info"/>
+
+        <EditText
+            android:id="@+id/add_edit_city"
+            style="@style/address_edit"/>
+
+    </LinearLayout>
+
+<!--    <LinearLayout
+        style="@style/address_info_layout">
+
+        <TextView
+            android:text="@string/address_gps"
+            android:layout_marginTop="25dp"
+            style="@style/address_gps"/>
+
+        <Button
+            android:id="@+id/btn_gps"
+            android:text="@string/address_maps"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/address_btn"
+        android:text="@string/address_btn"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        style="@style/address_button"/>
+
+    <Button
+        android:id="@+id/gps_btn"
+        android:text="@string/btn_gps_option"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        style="@style/address_button"/>
+
+</LinearLayout>
